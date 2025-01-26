@@ -2,6 +2,8 @@
 
 Este proyecto es un juego interactivo desarrollado con **HTML**, **CSS** y **JavaScript**. La idea principal es que el jugador intente adivinar un número secreto generado aleatoriamente por el sistema dentro de un rango definido. Es una implementación digital del clásico juego que muchos hemos jugado en la vida real. Para el desarrollo se puede observar el uso de funciones, manipulación del DOM, uso de listas y lógica de programación
 
+---
+
 ## 📋 Características
 
 - **Interfaz interactiva:** Diseño sencillo y fácil de usar.
@@ -9,11 +11,15 @@ Este proyecto es un juego interactivo desarrollado con **HTML**, **CSS** y **Jav
 - **Control del juego:** Posibilidad de reiniciar el juego una vez haz adivinado el número correctamente.
 - **Niveles personalizables:** ¡PRÓXIMAMENTE! Configuración del rango de números y máxima cantidad de intentos para ajustar la dificultad.
 
+---
+
 ## 🛠️ Tecnologías utilizadas
 
 - **HTML5:** Estructura del juego.
 - **CSS3:** Estilo y diseño de la interfaz.
 - **JavaScript:** Lógica del juego y manejo de eventos.
+
+---
 
 ## 🏆 Cómo jugar
 
@@ -26,6 +32,8 @@ Este proyecto es un juego interactivo desarrollado con **HTML**, **CSS** y **Jav
 5. Una vez que aciertes, podrás reiniciar el juego para volver a jugar. Sólo debes presionar el botón `Nuevo Juego`
 6. En cada Nuevo Juego los números secretos que haz adivinado no volverán a salir. Tú meta será adivinar todos los números secretos nuevos en cada partida y recordar los que ya salieron para avanzar rápidamente.
 
+---
+
 ## ⚙️ Instalación y ejecución
 
 1. Clona este repositorio en tu máquina local:
@@ -33,6 +41,21 @@ Este proyecto es un juego interactivo desarrollado con **HTML**, **CSS** y **Jav
    git clone https://github.com/pablins/game-secret-number.git
    ```
 2. Abre el archivo `index.html` en tu navegador web.
+
+---
+
+## 🏗 Estructura del proyecto
+
+```
+secret-number-game/
+│
+├── index.html       # Estructura HTML del juego
+├── style.css        # CSS para los estilos
+├── app.js           # JavaScript para la lógica del juego
+└── README.md        # Documentación del proyecto
+```
+
+---
 
 ## ✍ Personalización
 
@@ -42,14 +65,36 @@ const NUMERO_SECRETO_MAXIMO_POSIBLE = 10; // Número máximo del rango
 const NUMERO_MAXIMO_INTENTOS = 3; // Número máximo de intentos para adivinar el número secreto
 ```
 
+---
+
+## 🚀 Mejoras Futuras
+
+- Permitir la configuración inicial de los parámetros del juego (número máximo de intentos, rango del número secreto).
+- Añadir niveles de dificultad (fácil, medio, difícil).
+- Implementar internacionalización con el fin de poder traducir el juego a diferentes lenguajes.
+- Implementar un temporizador para medir cuánto tiempo tarda el jugador en adivinar el número.
+- Guardar puntuaciones máximas usando el almacenamiento local y hacer un ranking global
+- Incluir efectos de sonido y animaciones.
+- Personalización de las imágenes de fondo. Además, permitir seleccionar modo dark o light
+
+---
+
 ## 🤝 Contribuciones
 
 ¡Son bienvenidas! Si tienes ideas para mejorar este proyecto, por favor crea un "pull request" o abre un "issue".
+
+---
 
 ## 😀 Autor
 
 Este proyecto fue desarrollado como parte del curso de lógica de programación en **Alura Latam**.
 
+---
+
 ## 🖨 Licencia
 
 Este proyecto está bajo la Licencia MIT. Consulta el archivo `LICENSE` para más detalles.
+
+---
+
+¡Disfruta del juego!
